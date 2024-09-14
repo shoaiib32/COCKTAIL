@@ -1,0 +1,29 @@
+.loader {
+  margin: auto;
+  border: 16px solid #d4d8da;
+  border-radius: 50%;
+  border-top: 16px solid  #603F26;
+  width: 120px;
+  height: 120px;
+  animation: spin 10s linear infinite;
+}
+
+/* Center the loader on the page */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}

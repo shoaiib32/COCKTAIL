@@ -1,0 +1,26 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.item {
+ background-color: #FFFFFF;
+}
+
+.item img {
+  height: 30vh;
+}
+
+.details {
+  padding: 20px 10px;
+  color: #8D493A;
+}
+
+@media (max-width:500px) {
+  .item img {
+   height: 50vh;
+  }
+}

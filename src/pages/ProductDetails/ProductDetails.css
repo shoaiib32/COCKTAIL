@@ -1,0 +1,84 @@
+.product-details{
+  margin-top: 25px;
+  display: flex;
+  padding: 10px 40px;
+}
+
+
+.product-details img {
+  width: 34.375rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.name {
+  font-size: clamp(30px, 3.125rem, 3.125rem);
+  color: #603F26;
+}
+
+.light {
+  margin: 30px 0px 10px 0px;
+  color: #6C4E31;
+  font-size: clamp(18px, 2rem, 2rem);
+}
+
+.info {
+  color: black;
+  font-size: clamp(15px, 1.25rem, 1.25rem);
+}
+
+.ingre {
+  margin-top: 20px;
+  font-size: clamp(15px, 1.25rem, 1.25rem);
+}
+
+.ingre h1 {
+  font-size: clamp(18px, 2rem, 2rem);
+ color: #603F26; 
+}
+
+.ingre ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: clamp(15px, 1.25rem, 1.25rem);
+}
+
+.ingre ul li {
+  color: black;
+  line-height: 30px;
+}
+
+.inr {
+  margin-top: 40px;
+  font-size: clamp(20px, 1.25rem, 1.25rem);
+  font-weight: 900;
+  color: black;
+}
+
+
+.right button {
+  width: 20rem;
+  margin-top: 9.375rem;
+  border: none;
+  font-size: 1.875rem;
+  padding: 1.25rem;
+  background: #603F26;
+  color: #FFEAC5;
+}
+
+
+@media(max-width:500px) {
+  .product-details{
+    margin-top: 25px;
+    display: flex;
+    padding: 10px 10px;
+  }
+  .ingre ul li {
+    color: black;
+    line-height: 18px;
+  }
+}
